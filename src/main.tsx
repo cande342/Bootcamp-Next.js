@@ -8,7 +8,7 @@ import DataProvider from './providers/DataProvider.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ChakraProvider>
-    <DataProvider> {/* Asegúrate de envolver tu App con DataProvider */}
+    <DataProvider> 
       <App />
     </DataProvider>
     </ChakraProvider>
