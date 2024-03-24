@@ -1,0 +1,55 @@
+
+
+body{
+  margin: 0;
+  background-color: #EFD3D7;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+button{
+  width: 75px;
+  cursor: pointer;
+}
+
+
+.textHome {
+  width: 100%;
+  max-width: 550px; 
+  margin: auto;
+  text-align: center; 
+  padding: 0 20px; 
+  margin-bottom: 50px;
+
+  /* Estilos para el texto*/
+  font-size: 1rem; 
+  line-height: 1.5; 
+}
+
+.textHome h1 {
+  font-size: 2rem; /* Tamaño de fuente más grande para el título */
+  margin-bottom: 1rem; /* Espacio inferior para separar del texto */
+}
+
+/*Estilos de categorias*/
+
+
+.categoriesContent{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.categoriesContent button{
+  max-width: 200px;
+  color: #55828B;
+  border: solid 2px;
+  border-color: #55828B;
+}
+
+
